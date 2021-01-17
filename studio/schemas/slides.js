@@ -1,13 +1,21 @@
 export default {
-    title: "Slides",
-    name: "slide",
+    title: "Sliders",
+    name: "sliders",
     type: "document",
     fields: [
         {
-            title: "Section slides",
-            name: "description",
-            description: "Write excerpt to slide",
+            title: "Title",
+            name: "titlePresentation",
+            description: "Name of section",
             type: "string"
         },
+        {
+            title:"Slide",
+            name:"cardPrice",
+            description: "Click in botton to create slide",
+            type: "array",
+            of: [{type: "slide"}]
+
+        }
     ],
 }

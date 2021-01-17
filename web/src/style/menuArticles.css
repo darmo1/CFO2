@@ -1,0 +1,22 @@
+.menu-nav-secundary-item {
+    display: flex;
+  }
+  .menu-nav-secundary-item li:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .menu-nav-secundary-item .current-menu-item {
+    background-color: #eebb4d;
+  }
+  .menu-nav-secundary-item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 50px;
+    font-weight: 400;
+    border-right: solid 2px #fff;
+    color: #fff;
+  }
+  .menu-nav-secundary-item li:first-child a {
+    border-left: solid 2px #fff;
+  }

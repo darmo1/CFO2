@@ -4,9 +4,21 @@ export default {
     type: "document",
     fields: [
         {
-            title: "Head of Prices",
-            name: "price",
+            title: "Main Head",
+            name: "headPrice",
             type: "string"
         },
+        {
+            title: "SubTitle",
+            name: "subtitle",
+            type: "string"
+        },
+        {
+            title:"Cards Price",
+            name:"cardPrice",
+            type: "array",
+            of: [{type: "cardPrice"}]
+
+        }
     ],
 }

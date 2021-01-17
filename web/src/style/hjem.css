@@ -29,7 +29,15 @@
     margin: 1rem auto;
   }
 
+  .box__priser {
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .priser {
+    padding: 1rem;
+    text-align: center;
+}
 
 
 
- 
