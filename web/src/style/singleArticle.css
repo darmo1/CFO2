@@ -1,0 +1,30 @@
+/*Single Article*/
+.single-article {
+    width: 90%;
+  }
+  .single-article__date {
+    color: #adadad;
+  }
+  .single-article__heading {
+    font-size: 2.5rem;
+    margin: 0.5rem auto;
+    overflow-wrap: break-word;
+    width: 95vw;
+  }
+  .size-article, .single-article__content {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .single-article__content p {
+    margin: 1rem auto;
+  }
+  .single-article__socialMedia {
+    display: flex;
+    border-top: solid 1px #adadad;
+    border-bottom: solid 1px #adadad;
+  }
+  .single-article__socialMedia img {
+    width: 3rem;
+    height: 3rem;
+  }

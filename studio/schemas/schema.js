@@ -17,6 +17,10 @@ import cardPrice from "./cardPrice"
 import contact from "./contact"
 import social from "./social"
 import omOss from "./omOss"
+import file from "./file"
+import webinar from "./webinar"
+import fristkalender from "./fristkalender"
+import maler from "./maler"
 import richText from "./richText"
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -40,6 +44,10 @@ export default createSchema({
     richText,
     post,
     omOss,
+    maler,
+    fristkalender,
+    file,
+    webinar,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     blockContent,
